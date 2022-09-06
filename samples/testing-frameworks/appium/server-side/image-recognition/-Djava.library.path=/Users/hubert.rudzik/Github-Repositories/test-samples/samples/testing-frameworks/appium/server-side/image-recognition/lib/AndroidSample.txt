@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: AndroidSample
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.556 s <<< FAILURE! - in AndroidSample
+AndroidSample  Time elapsed: 7.555 s  <<< ERROR!
+java.lang.UnsatisfiedLinkError: no opencv_java342 in java.library.path: /Users/hubert.rudzik/Github-Repositories/test-samples/samples/testing-frameworks/appium/server-side/image-recognition/lib/
+	at AndroidSample.setUp(AndroidSample.java:23)
+

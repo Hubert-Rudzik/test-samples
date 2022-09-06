@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: AndroidSample
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.956 s <<< FAILURE! - in AndroidSample
+mainPageTest  Time elapsed: 1.272 s  <<< ERROR!
+java.lang.UnsatisfiedLinkError: no opencv_java342 in java.library.path: [/usr/local/Cellar/opencv/4.6.0/share/java/opencv4]
+	at AndroidSample.mainPageTest(AndroidSample.java:40)
+
